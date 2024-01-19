@@ -153,7 +153,6 @@ li{
     width: 80%;
     height: 600px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-left: 10%;
@@ -481,11 +480,13 @@ li{
     }
     .contact-form{
         margin-bottom: 50px;
+        flex-direction: column;
     }
     .content{
-        font-size: 1em;
+        font-size: 1.2em;
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 20px;
     }
     .form{
         font-size: 0.8em;
@@ -633,12 +634,15 @@ li{
         border-radius: 40px;
     }
     .contact-form{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
+        flex-direction: column;
     }
     .content{
-        font-size: 1.5em;
+        font-size: 1.6em;
         padding-left: 30px;
         padding-right: 30px;
+        padding-top: 100px;
+        padding-bottom: 20px;
     }
     .form{
         font-size: 1em;
@@ -782,6 +786,7 @@ li{
     }
     .contact-form{
         margin-bottom: 150px;
+        flex-direction: row;
     }
     .content{
         font-size: 2em;
