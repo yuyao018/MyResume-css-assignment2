@@ -159,7 +159,6 @@ li{
     margin-right: 10%;
 }
 .content{
-    width: auto;
     height: auto;
     font-family: 'Pacifico', cursive;
     color: #492F10;
@@ -487,6 +486,7 @@ li{
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
+        width: auto;
     }
     .form{
         font-size: 0.8em;
@@ -643,6 +643,7 @@ li{
         padding-right: 30px;
         padding-top: 100px;
         padding-bottom: 20px;
+        width: auto;
     }
     .form{
         font-size: 1em;
@@ -792,6 +793,7 @@ li{
         font-size: 2em;
         padding-left: 50px;
         padding-right: 50px;
+        max-width: 300px;
     }
     .form{
         font-size: 1.2em;
