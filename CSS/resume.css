@@ -24,7 +24,7 @@ body{
 }
 .header-grid{
     display: grid;
-    grid-template-columns: 1fr 145%;
+    grid-template-columns: 1fr 100%;
 }
 .introduction{
     font-family: 'Montserrat', sans-serif;
@@ -392,10 +392,9 @@ li{
         height: 250px;
     }
     .introduction{
-        min-width: 120px;
         padding-top: 50px;
         padding-left: 20px;
-        font-size: 10px;
+        font-size: 8.5px;
     }
     .profile-img{
         width: 120px;
@@ -546,10 +545,9 @@ li{
         height: 400px;
     }
     .introduction{
-        min-width: 180px;
         padding-top: 75px;
         padding-left:25px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .profile-img{
         width: 200px;
