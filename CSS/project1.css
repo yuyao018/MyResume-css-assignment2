@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF4E0;
+}
+.header{
+    background-color: #ECDBBA;
+    text-align: start;
+    font-family: 'Varela Round', sans-serif;
+    color: #42032C;
+}
+.img{
+        border-top: 1px solid #5C3D2E;
+        width:100%;
+        border-bottom: 1px solid #5C3D2E;
+    }
+.introduction{
+    font-family: 'Varela Round', sans-serif;
+}
+.obj-sec, .req-sec, .feature-sec, .adv-sec{
+    background-color: #ECDBBA;
+}
+.obj, .req, .feature, .adv{
+    margin-top: 0px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: underline;
+}
+.obj-flex{
+    display: flex;
+}
+.no{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    background-color: beige;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.obj-content{
+    font-family: 'Varela Round', sans-serif;
+}
+.req-flex{
+    display: flex;
+    flex-direction: row;
+}
+.software, .hardware{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.req-content{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #ddbe81;
+}
+.feature-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family: 'Varela Round', sans-serif;
+}
+.feature-no{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    background-color: beige;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.feature-content{
+    align-items: center;
+}
+.adv-flex{
+    display: flex;
+}
+.adv-title{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.adv-content{
+    font-family: 'Varela Round', sans-serif;
+}
+.form{
+    background-color: #ECDBBA;
+    font-family: 'Varela Round', sans-serif;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #5C3D2E;
+}
+input[type=submit]{
+    background-color: #ECDBBA;
+    color: #5C3D2E;
+    font-family: 'Varela Round', sans-serif;
+}
+.back-to-mainpage{
+    background-color: #ECDBBA;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    color: #5C3D2E;
+}
+@media(max-width: 480px) and (min-width: 319px){
+    .header{
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    .introduction{
+        padding: 30px;
+        font-size: 0.8em;
+    }
+    .obj-sec, .req-sec, .feature-sec, .adv-sec{
+        margin: 0px 20px 10px 20px;
+        padding: 10px;
+        border: 6px double #5C3D2E;
+    }
+    .obj, .req, .feature, .adv{
+        padding-bottom: 6px;
+        font-size: 1.2em;
+    }
+    .obj-flex{
+        gap: 10px;
+    }
+    .obj-flex-box{
+        width: 100px;
+    }
+    .no{
+        font-size: 1.5em;
+        width: 60px;
+        height: 60px;
+    }
+    .obj-content{
+        font-size: 0.8em;
+    }
+    .req-flex{
+        gap: 5px;
+    }
+    .req-flex-box{
+        width: 300px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+    }
+    .software, .hardware{
+        padding-bottom: 10px;
+        font-size: 1.2em;
+    }
+    .req-content{
+        font-size: 0.6em;
+        min-width: 50px;
+        padding: 6px;
+        margin-bottom: 10px;
+        box-shadow: #5C3D2E 5px 5px;
+    }
+    .feature-grid{
+        font-size: 0.8em;
+        gap: 8px;
+    }
+    .feature-no{
+        font-size: 1.5em;
+        width: 60px;
+        height: 60px;
+    }
+    .adv-flex{
+        gap: 10px;
+    }
+    .adv-title{
+        font-size: 0.6em;
+        height: 30px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .adv-flex-box{
+        width: 200px;
+    }
+    .adv-content{
+        font-size: 0.6em;
+    }
+    .form{
+        padding: 10px;
+        font-size: 0.6em;
+    }
+    textarea{
+        height: 90px;
+    }
+    input[type=submit]{
+        padding: 6px 20px 6px 20px;
+        border-radius: 6px;
+        font-size: 1.2em;
+    }
+    .back-to-mainpage{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    a{
+        font-size: 0.8em;
+    }
+}
+@media(max-width: 1200px) and (min-width: 481px){
+    .header{
+        padding: 15px;
+        font-size: 1em;
+    }
+    .introduction{
+        padding: 40px;
+        font-size: 1em;
+    }
+    .obj-sec, .req-sec, .feature-sec, .adv-sec{
+        margin: 0px 45px 30px 45px;
+        padding: 15px;
+        border: 8px double #5C3D2E;
+    }
+    .obj, .req, .feature, .adv{
+        padding-bottom: 8px;
+        font-size: 1.6em;
+    }
+    .obj-flex{
+        gap: 15px;
+    }
+    .obj-flex-box{
+        width: 300px;
+    }
+    .no{
+        font-size: 2.5em;
+        width: 80px;
+        height: 80px;
+    }
+    .obj-content{
+        font-size: 1em;
+    }
+    .req-flex{
+        gap: 1%;
+    }
+    .req-flex-box{
+        width: 400px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .software, .hardware{
+        padding-bottom: 15px;
+        font-size: 1.35em;
+    }
+    .req-content{
+        font-size: 1em;
+        max-width: 250px;
+        padding: 8px;
+        margin-bottom: 20px;
+        box-shadow: #5C3D2E 10px 10px;
+    }
+    .feature-grid{
+        font-size: 0.9em;
+        gap: 10px;
+    }
+    .feature-no{
+        font-size: 2.5em;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 7.5px;
+        margin-right: 10px;
+    }
+    .adv-flex{
+        gap: 20px;
+    }
+    .adv-title{
+        font-size: 0.9em;
+        height: 50px;
+        border-radius: 15px;
+        margin: 15px;
+    }
+    .adv-flex-box{
+        width: 300px;
+    }
+    .adv-content{
+        font-size: 0.9em;
+    }
+    .form{
+        padding: 15px;
+        font-size: 0.9em;
+    }
+    textarea{
+        height: 120px;
+    }
+    input[type=submit]{
+        padding: 8px 30px 8px 30px;
+        border-radius: 8px;
+        font-size: 1.2em;
+    }
+    .back-to-mainpage{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    a{
+        font-size: 1em;
+    }
+}
+@media(max-width: 1600px) and (min-width: 1201px){
+    .header{
+        padding: 20px;
+        font-size: 1.2em;
+    }
+    .introduction{
+        padding: 50px;
+        font-size: 1.2em;
+    }
+    .obj-sec, .req-sec, .feature-sec, .adv-sec{
+        margin: 50px 100px 50px 100px;
+        padding: 20px;
+        border: 10px double #5C3D2E;
+    }
+    .obj, .req, .feature, .adv{
+        padding-bottom: 10px;
+        font-size: 2em;
+    }
+    .obj-flex{
+        gap: 20px;
+    }
+    .obj-flex-box{
+        width: 400px;
+    }
+    .no, .feature-no{
+        font-size: 3em;
+        width: 100px;
+        height: 100px;
+    }
+    .obj-content{
+        font-size: 1.2em;
+    }
+    .req-flex{
+        gap: 1%;
+    }
+    .req-flex-box{
+        width: 500px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .software, .hardware{
+        padding-bottom: 20px;
+        font-size: 1.5em;
+    }
+    .req-content{
+        font-size: 1.2em;
+        max-width: 300px;
+        padding: 20px;
+        margin-bottom: 30px;
+        box-shadow: #5C3D2E 10px 10px;
+    }
+    .feature-grid{
+        font-size: 1em;
+        gap: 15px;
+    }
+    .feature-no{
+        font-size: 3em;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .adv-flex{
+        display: flex;
+        gap: 30px;
+    }
+    .adv-title{
+        font-size: 1.5em;
+        height: 50px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .adv-flex-box{
+        width: 400px;
+    }
+    .adv-content{
+        font-size: 1.2em;
+    }
+    .form{
+        padding: 20px;
+        font-size: 1.2em;
+    }
+    textarea{
+        height: 150px;
+    }
+    input[type=submit]{
+        padding: 10px 40px 10px 40px;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+    .back-to-mainpage{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    a{
+        font-size: 1.2em;
+    }
+}

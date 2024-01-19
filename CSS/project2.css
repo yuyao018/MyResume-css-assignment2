@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DCF2F1;
+}
+.header{
+    background-color: #92C7CF;
+    text-align: center;
+    color: #0F1035;
+    font-family: 'Heebo', sans-serif;
+}
+.img{
+        border-top: 1px solid #5C3D2E;
+        width:100%;
+        border-bottom: 1px solid #5C3D2E;
+    }
+.introduction{
+    font-family: 'Arvo', serif;
+}
+.obj-sec, .req-sec, .feature-sec, .adv-sec{
+    border: 2px dashed;
+    background-color: #7FC7D9;
+    border-radius: 20px;
+}
+.obj, .req, .feature, .adv{
+    margin-top: 0px;
+    font-family: 'Arvo', serif;
+    border-bottom: 2px #0F1035 solid;
+}
+li{
+    font-family: 'Arvo', serif;
+}
+.req-flex{
+    display: flex;
+    flex-direction: column;
+}
+.software, .hardware{
+    font-family: 'Arvo', serif;
+}
+.soft-grid, .hard-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.req-content{
+    background-color: #E0F4FF;
+    border: 3px dashed; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.feature-content{
+    background-color: #E0F4FF;
+    border: 3px dashed; 
+    text-align: start;
+    font-family: 'Arvo', serif;
+}
+.adv-flex{
+    display: flex;
+    flex-direction: column;
+}
+.adv-title{
+    font-family: 'Arvo', serif;
+    text-decoration: underline;
+}
+.adv-content{
+    font-size: 1.2em;
+    font-family: 'Arvo', serif;
+    padding: 0px 10px 0px 10px;
+}
+.form{
+    background-color: #7FC7D9;
+    font-family: 'Heebo', sans-serif;
+}
+textarea{
+    width: 100%;
+    background-color: #DCF2F1;
+    border: 1px solid black;
+}
+input[type=submit]{
+    background-color: #0F1035;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+.back-to-mainpage{
+    background-color: #7FC7D9;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: #0F1035;
+}
+@media(max-width: 480px) and (min-width: 319px){
+    .header{
+        font-size: 0.8em;
+        padding: 10px;
+    }
+    .introduction{
+        padding: 15px;
+        font-size: 0.8em;
+    }
+    .obj-sec, .req-sec, .feature-sec, .adv-sec{
+        margin: 0px 20px 10px 20px;
+        padding: 15px;
+    }
+    .obj, .req, .feature, .adv{
+        font-size: 1.2em;
+        padding-bottom: 10px;
+    }
+    li{
+        font-size: 0.6em;
+        padding-top: 10px;
+    }
+    .req-flex{
+        gap: 10px;
+    }
+    .software, .hardware{
+        font-size: 1em;
+    }
+    .soft-grid, .hard-grid{
+        gap: 6px;
+    }
+    .req-content{
+        padding: 4px;
+        font-size: 0.6em;
+    }
+    .feature-grid{
+        gap: 6px;
+    }
+    .feature-content{
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 0.7em;
+        height: 67%;
+    }
+    .adv-title{
+        font-size: 0.9em;
+    }
+    .adv-content{
+        font-size: 0.8em;
+        padding: 0px 6px 0px 6px;
+    }
+    .form{
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    textarea{
+        height: 90px;
+    }
+    input[type=submit]{
+        padding: 6px 20px 6px 20px;
+        border-radius: 6px;
+        font-size: 1em;
+    }
+    .back-to-mainpage{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    a{
+        font-size: 0.8em;
+    }
+}
+@media(max-width: 1200px) and (min-width: 481px){
+    .header{
+        font-size: 1em;
+        padding: 15px;
+    }
+    .introduction{
+        padding: 30px;
+        font-size: 1em;
+    }
+    .obj-sec, .req-sec, .feature-sec, .adv-sec{
+        margin: 0px 45px 30px 45px;
+        padding: 15px;
+    }
+    .obj, .req, .feature, .adv{
+        font-size: 1.6em;
+        padding-bottom: 15px;
+    }
+    li{
+        font-size: 0.9em;
+        padding-top: 15px;
+    }
+    .req-flex{
+        gap: 15px;
+    }
+    .software, .hardware{
+        font-size: 1.3em;
+    }
+    .soft-grid, .hard-grid{
+        gap: 8px;
+    }
+    .req-content{
+        padding: 4px;
+        font-size: 0.8em;
+    }
+    .feature-grid{
+        gap: 8px;
+    }
+    .feature-content{
+        border-radius: 15px;
+        padding: 15px;
+        font-size: 0.8em;
+        height: 57%;
+    }
+    .adv-title{
+        font-size: 1.2em;
+    }
+    .adv-content{
+        font-size: 1em;
+        padding: 0px 8px 0px 8px;
+    }
+    .form{
+        padding: 15px;
+        font-size: 1em;
+    }
+    textarea{
+        height: 120px;
+    }
+    input[type=submit]{
+        padding: 8px 30px 8px 30px;
+        border-radius: 8px;
+        font-size: 1em;
+    }
+    .back-to-mainpage{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    a{
+        font-size: 1em;
+    }
+}
+@media(max-width: 1600px) and (min-width: 1201px){
+    .header{
+        font-size: 1.2em;
+        padding: 20px;
+    }
+    .introduction{
+        padding: 50px;
+        font-size: 1.2em;
+    }
+    .obj-sec, .req-sec, .feature-sec, .adv-sec{
+        margin: 50px 100px 50px 100px;
+        padding: 20px;
+    }
+    .obj, .req, .feature, .adv{
+        font-size: 2em;
+        padding-bottom: 20px;
+    }
+    li{
+        font-size: 1.2em;
+        padding-top: 20px;
+    }
+    .req-flex{
+        gap: 20px;
+    }
+    .software, .hardware{
+        font-size: 1.6em;
+    }
+    .soft-grid, .hard-grid{
+        gap: 10px;
+    }
+    .req-content{
+        padding: 5px;
+        font-size: 1em;
+    }
+    .feature-grid{
+        gap: 10px;
+    }
+    .feature-content{
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 1em;
+        height: 45px;
+    }
+    .adv-title{
+        font-size: 1.5em;
+    }
+    .adv-content{
+        font-size: 1.2em;
+        padding: 0px 10px 0px 10px;
+    }
+    .form{
+        padding: 20px;
+        font-size: 1.2em;
+    }
+    textarea{
+        height: 150px;
+    }
+    input[type=submit]{
+        padding: 10px 40px 10px 40px;
+        border-radius: 10px;
+        font-size: 1em;
+    }
+    .back-to-mainpage{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    a{
+        font-size: 1.2em;
+    }
+}
